@@ -60,7 +60,14 @@ Model performance was assessed using multiple metrics to understand accuracy, pr
    - **Confusion Matrix**: Shows true positives, true negatives, false positives, and false negatives, providing a detailed performance breakdown.
 
 These metrics were used to identify the best-performing model, and hyperparameter tuning was applied to further enhance model accuracy and reliability.
+###7. Deploying the Model with FastAPI
+We use FastAPI to build an API endpoint that allows users to send data and receive a diabetes prediction. This enables real-time access to the model for prediction purposes.
 
+### 1. Setting Up FastAPI
+To deploy the model with FastAPI, ensure that `fastapi` and `uvicorn` libraries are installed. You can install them using the following command:
+```bash
+pip install fastapi uvicorn
+```
 ## Requirements
 To run this notebook, you will need the following libraries:
 - **Core Libraries**: `numpy`, `pandas`, `matplotlib`, and `seaborn` for data manipulation and visualization.

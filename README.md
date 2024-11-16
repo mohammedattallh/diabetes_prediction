@@ -68,6 +68,41 @@ To deploy the model with FastAPI, ensure that `fastapi` and `uvicorn` libraries 
 ```bash
 pip install fastapi uvicorn
 ```
+# **Diabetes Prediction API**
+
+This project provides a real-time diabetes prediction service using a pre-trained machine learning model deployed with **FastAPI**. The model is containerized using **Docker** for easy deployment and scalability.
+
+---
+
+## **Features**
+- Predict diabetes status based on health metrics using an API endpoint.
+- Containerized with Docker for platform-independent execution.
+- Built with FastAPI for high performance and ease of use.
+
+---
+
+## **Setup Instructions**
+
+### **1. Clone the Repository**
+Clone this repository to your local machine:
+```bash
+git clone https://github.com/mohammedatallah20/diabetes-prediction-api.git
+cd diabetes-prediction-api
+```
+### **2. Build and Run the Docker Container**
+
+#### **Build the Docker Image**
+Run the following command to build the Docker image:
+```bash
+docker build -t diabetes-prediction-api .
+```
+#### **Run the Container**
+Start the container with:
+
+```bash
+docker run -p 8030:8030 diabetes-prediction-api
+```
+The API will be accessible at http://localhost:8030.
 ## Requirements
 To run this notebook, you will need the following libraries:
 - **Core Libraries**: `numpy`, `pandas`, `matplotlib`, and `seaborn` for data manipulation and visualization.

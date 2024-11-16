@@ -100,7 +100,7 @@ Pull the image using:
 ```bash
 docker pull mohammedatallah20/diabetes-prediction-api:latest
 ```
-### ** Build and Run the Docker Container**
+### **Build and Run the Docker Container**
 
 #### **1.Build the Docker Image**
 Run the following command to build the Docker image:

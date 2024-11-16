@@ -89,14 +89,25 @@ Clone this repository to your local machine:
 git clone https://github.com/mohammedatallah20/diabetes-prediction-api.git
 cd diabetes-prediction-api
 ```
-### **2. Build and Run the Docker Container**
 
-#### **Build the Docker Image**
+### Docker Hub
+The prebuilt Docker image for this project is available on Docker Hub:
+
+**Image URL:** `mohammedatallah20/diabetes-prediction-api`
+
+Pull the image using:
+
+```bash
+docker pull mohammedatallah20/diabetes-prediction-api:latest
+```
+### ** Build and Run the Docker Container**
+
+#### **1.Build the Docker Image**
 Run the following command to build the Docker image:
 ```bash
 docker build -t diabetes-prediction-api .
 ```
-#### **Run the Container**
+#### **2.Run the Container**
 Start the container with:
 
 ```bash

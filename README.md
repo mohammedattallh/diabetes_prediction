@@ -93,7 +93,8 @@ cd diabetes-prediction-api
 ### Docker Hub
 The prebuilt Docker image for this project is available on Docker Hub:
 
-**Image URL:** `mohammedatallah20/diabetes-prediction-api`
+**Image URL:** `[mohammedatallah20/diabetes-prediction-api](https://hub.docker.com/r/mohammedatallah20/diabetes-prediction-api
+)`
 
 Pull the image using:
 
